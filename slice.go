@@ -36,3 +36,17 @@ func SliceAppend(arr []int) {
 	fmt.Printf("after -> len = %d cap = %d\n", len(sli), cap(sli))
 	fmt.Println("&arr[3] == &sli[0]", &arr[3], &sli[0], &arr[3] == &sli[0])
 }
+
+/*SliceCopy is a program for copying array to another array*/
+func SliceCopy() {
+	s1 := make([]int, 5, 5)
+	s2 := []int{1, 2, 3, 4}
+
+	fmt.Printf("before -> s1 = %v\n", s1)
+	fmt.Printf("before -> s2 = %v\n", s2)
+
+	n1 := copy(s1, s2)
+	fmt.Printf("after -> s1 = %v\n", s1)
+	fmt.Printf("after -> s2 = %v\n", s2)
+	fmt.Printf("n1 = %d\n", n1)
+}

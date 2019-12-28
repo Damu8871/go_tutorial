@@ -35,8 +35,9 @@ func main() {
 	/*Structures in Go
 	StructTest()*/
 
-	/*SliceBasic in Go*/
+	/*SliceBasic in Go
 	SliceBasic()
+	SliceCopy()*/
 
 	/*Go Methods
 	circle := Circle{x: 0, y: 0, radious: 5}
