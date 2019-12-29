@@ -39,9 +39,12 @@ func main() {
 	SliceBasic()
 	SliceCopy()*/
 
-	/*Ranges in Go*/
-	//RangesEx()
-	RangesEx1()
+	/*Ranges in Go
+	RangesEx()
+	RangesEx1()*/
+
+	/*Interfaces in Go*/
+	InterfacesEx()
 
 	/*Go Methods
 	circle := Circle{x: 0, y: 0, radious: 5}
