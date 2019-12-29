@@ -39,6 +39,9 @@ func main() {
 	SliceBasic()
 	SliceCopy()*/
 
+	/*Ranges in Go*/
+	RangesEx()
+
 	/*Go Methods
 	circle := Circle{x: 0, y: 0, radious: 5}
 	fmt.Println("Radious of the circle is :", circle.area())*/
